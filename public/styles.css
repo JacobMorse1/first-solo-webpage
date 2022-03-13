@@ -1,0 +1,65 @@
+body {
+    background-color: #FCFCFC;
+}
+
+.searchbar {
+    float: left;
+    line-height: 25px;
+    padding: 12px;
+    /* border-radius: 4px; */
+    margin-left: 5px;
+}
+
+#search-button {
+    border: 3px black solid;
+    border-radius: 4px;
+
+}
+
+#search-box {
+    margin-left: 5px;
+    margin-right: 5px;
+    border: 2px black solid;
+    border-radius: 4px;
+    min-width: 200px;
+}
+
+.header {
+    overflow: hidden;
+    background-color: #003554;
+    padding: 15px 10px 5px;
+}
+
+.header a {
+    text-decoration: none;
+    float: left;
+    color: #F5B800;
+    text-align: center;
+    padding: 12px;
+    font-size: 24pt;
+    line-height: 25px;
+    border-radius: 4px;
+}
+
+.header a:hover {
+    /* background-color: darkgreen; */
+    color: lightgray;
+}
+
+.header-right {
+    float: right;    
+}
+
+.header-right a {
+    color:grey;
+    font-size: 16pt;
+}
+
+#iceland-img {
+    max-height: 600px;
+    max-width: 300px;
+    margin-top: 30px;
+    margin-left: 15px;
+    border: 1px black solid;
+    border-radius: 2px;
+}
